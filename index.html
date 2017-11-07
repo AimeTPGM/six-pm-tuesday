@@ -3,9 +3,24 @@
   <head>
     <meta charset="utf-8">
     <title>six-pm-tuesday</title>
+    <link rel="stylesheet" href="static/style.css"
   </head>
   <body>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    
+  <script src="https://www.gstatic.com/firebasejs/4.6.1/firebase.js"></script>
+  <script>
+    // Initialize Firebase
+    var config = {
+      apiKey: "AIzaSyDw6X-ExsspNs9bmERwQ8gtHa1ZH16yLKE",
+      authDomain: "six-pm-tuesday.firebaseapp.com",
+      databaseURL: "https://six-pm-tuesday.firebaseio.com",
+      projectId: "six-pm-tuesday",
+      storageBucket: "six-pm-tuesday.appspot.com",
+      messagingSenderId: "332303078355"
+    }
+    firebase.initializeApp(config);
+  </script>
   </body>
 </html>
